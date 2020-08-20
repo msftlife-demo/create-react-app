@@ -1,6 +1,7 @@
 on:
-  release:
-    types: master
+  push:
+    branches:
+      - master
 
 env:
   AZURE_WEBAPP_NAME: create-react-app-demo    # set this to your application's name
